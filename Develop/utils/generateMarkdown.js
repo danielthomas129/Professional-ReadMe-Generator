@@ -20,8 +20,8 @@ function generateMarkdown(userResponses, userInfo) {
   let draftMarkdown = 
   `# ${userResponses.title}
 
-  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
-  
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=style=plastic) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${userResponses.username}/${userResponses.repo}?style=style=plastic)
+
   Check out the badges hosted by [shields.io](https://shields.io/).
   
   
@@ -35,7 +35,7 @@ function generateMarkdown(userResponses, userInfo) {
 
   // Add Table of Contents to markdown
   draftMarkdown += draftToC;
- 
+
   // Add License section since License is required to Table of Contents
   draftMarkdown += `
   * [License](#license)`;

@@ -12,7 +12,7 @@ const questions = [
         type: 'input',
         message: "What is your GitHub username? (No @ needed)",
         name: 'username',
-        default: 'connietran-dev',
+        default: 'danielthomas129',
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid GitHub username is required.");
@@ -96,18 +96,6 @@ function writeToFile(fileName, data) {
 
 const writeFileAsync = util.promisify(writeToFile);
 
-
-// TODO: Create a function to write README file
-await writeFileAsync('ExampleREADME.md', markdown);
-
-} catch (error) {
-    console.log(error);
-}
-};
-
-init();
-
-
 // TODO: Create a function to initialize app
 async function init() {
     try {
@@ -126,3 +114,12 @@ async function init() {
         const markdown = generateMarkdown(userResponses, userInfo);
         console.log(markdown);
 
+// TODO: Create a function to write README file
+await writeFileAsync('ExampleREADME.md', markdown);
+
+} catch (error) {
+    console.log(error);
+}
+};
+
+init();
