@@ -23,7 +23,7 @@ THEN I am taken to the corresponding section of the README
 ## SCREENSHOTS
 
 The following animation demonstrates the application functionality:
-![deployed-io](assets/deployed-io.png)
+
 ![README-GIF](./Develop/READMEDG.gif)
 
 ## CLICK THE ICON BELOW: VIDEO DEMO LINK
