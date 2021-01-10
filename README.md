@@ -40,13 +40,6 @@ To generate your own README, first run `npm install` in order to install the fol
 
 You can run the app by running  `node index.js` in the terminal.
 
-#### CODE SNIPPETS
-
-
-
-**JavaScript | code snippet**
-
-![JS](assets/js-functions.png)
 
 ## GitHub Repository & Deployed Site
 GitHub: [@danielthomas129](https://api.github.com/users/danielthomas129)
